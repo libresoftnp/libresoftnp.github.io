@@ -49,15 +49,15 @@
 <body>
 <div  style="overflow:hidden;">
 <header class="header" id="header"><!--header-start-->
-	<div class="hero container">
+	<div class="container hero">
     	<figure class="logo animated fadeInDown delay-07s">
-        	<a href="#contact"><img src="img/Logos/logo.png" alt=""></a>	
+        	<a href="#"><img src="img/Logos/logo.png" alt=""></a>	
         </figure>	
         <h1 class="animated fadeInDown delay-07s">Libresoft IT Solutions</h1>
         <ul class="we-create animated fadeInUp delay-1s">
         	<li>We Provide Solutions The Open Source Way.</li>
         </ul>
-<a class="knowmore link animated fadeInUp delay-1s" href="#test">Know More</a>
+<a class="link animated fadeInUp delay-1s knowmore" href="#test">Know More</a>
     </div>
 </div>
 </header><!--header-end-->
@@ -128,36 +128,36 @@
 	<div class="container">
     	<div class="row">
 			<figure class="col-lg-5 col-sm-4 wow fadeInLeft">
-            	<img  src="img/odroid.png" alt="">
+            	<img  src="img/iphone.png" alt="">
             </figure>
         	<div class="col-lg-7 col-sm-8 featured-work">
-            <!--	<h2>featured work</h2>
-            	<P class="padding-b">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit.</P> -->
+            	<h2>featured work</h2>
+            	<P class="padding-b">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit.</P>
             	<div class="featured-box">
                 	<div class="featured-box-col1 wow fadeInRight delay-02s">
-                    	<i class="fa-desktop"></i>
+                    	<i class="fa-magic"></i>
                     </div>	
                 	<div class="featured-box-col2 wow fadeInRight delay-02s">
-                        <h3>Low Powered Computer Solutions</h3>
-                        <p>Class & Training room setup with Low Powered Single Board Computers running linux. Single Board Computers are next bin thing in this age. Save energy!</p>
+                        <h3>magic of theme development</h3>
+                        <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. </p>
                     </div>    
                 </div>
                 <div class="featured-box">
                 	<div class="featured-box-col1 wow fadeInRight delay-04s">
-                    	<i class="fa-folder"></i>
+                    	<i class="fa-gift"></i>
                     </div>	
                 	<div class="featured-box-col2 wow fadeInRight delay-04s">
-                        <h3>ERP</h3>
-                        <p>We provide complete ERP and Document Management Solutions for organizations. Manage your enterprise in efficient way.</p>
+                        <h3>neatly packaged</h3>
+                        <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. </p>
                     </div>    
                 </div>
                 <div class="featured-box">
                 	<div class="featured-box-col1 wow fadeInRight delay-06s">
-                    	<i class="fa-paperclip"></i>
+                    	<i class="fa-dashboard"></i>
                     </div>	
                 	<div class="featured-box-col2 wow fadeInRight delay-06s">
-                        <h3>Others</h3>
-                        <p>We can help you with anything related to Linux, Networking and System Administration upon request.</p>
+                        <h3>SEO optimized</h3>
+                        <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. </p>
                     </div>    
                 </div>
                 <a class="Learn-More" href="#">Learn More</a>
@@ -239,7 +239,7 @@
 </section><!--main-section client-part-end-->
 <!--div class="c-logo-part"--><!--c-logo-part-start-->
 <!--	<div class="container">
-    	<ul>
+<ul>
         	<li><a href="#"><img src="img/c-liogo1.png" alt=""></a></li>
             <li><a href="#"><img src="img/c-liogo2.png" alt=""></a></li>
             <li><a href="#"><img src="img/c-liogo3.png" alt=""></a></li>
@@ -248,7 +248,6 @@
     	</ul>
 	</div>
 </div>--><!--c-logo-part-end-->
-
 <section class="main-section team" id="team"><!--main-section team-start-->
 	<div class="container">
         <h2>team</h2>
@@ -305,6 +304,8 @@
 
 
 
+
+<div class="container">
 <section class="main-section contact" id="contact" style="background-color: rgba(0, 0, 0, 0.02)">
 	
 <div class="container">
@@ -410,64 +411,6 @@
 </script>
 
 <script type="text/javascript">
-	$(window).load(function(){
-		
-		$('body').bind('scroll',function(event){
-			var $anchor = $(this);
-			
-			$('html, body').stop().animate({
-				scrollTop: $($anchor.attr('href')).offset().top - 0 
-			}, 1500,'easeInOutExpo');
-			/*
-			if you don't want to use the easing effects:
-			$('html, body').stop().animate({
-				scrollTop: $($anchor.attr('href')).offset().top
-			}, 1000);
-			*/
-			event.preventDefault();
-		});
-	})
-</script>
-<script type="text/javascript">
-	$(window).load(function(){
-		
-		$('.knowmore').bind('click',function(event){
-			var $anchor = $(this);
-			
-			$('html, body').stop().animate({
-				scrollTop: $($anchor.attr('href')).offset().top - 0 
-			}, 1500,'easeInOutExpo');
-			/*
-			if you don't want to use the easing effects:
-			$('html, body').stop().animate({
-				scrollTop: $($anchor.attr('href')).offset().top
-			}, 1000);
-			*/
-			event.preventDefault();
-		});
-	})
-</script>
-
-<script type="text/javascript">
-	$(window).load(function(){
-		
-		$('.footer-logo-1').bind('click',function(event){
-			var $anchor = $(this);
-			
-			$('html, body').stop().animate({
-				scrollTop: $($anchor.attr('href')).offset().top - 0 
-			}, 1500,'easeInOutExpo');
-			/*
-			if you don't want to use the easing effects:
-			$('html, body').stop().animate({
-				scrollTop: $($anchor.attr('href')).offset().top
-			}, 1000);
-			*/
-			event.preventDefault();
-		});
-	})
-</script>
-<script type="text/javascript">
 
 $(window).load(function(){
   
@@ -512,43 +455,49 @@ $(window).load(function(){
   
 });
 
-
 </script>
-<script type="text/javascript">
-$("#slideshow > div:gt(0)").hide();
 
-setInterval(function() { 
-  $('#slideshow > div:first')
-    .fadeOut(1000)
-    .next()
-    .fadeIn(1000)
-    .end()
-    .appendTo('#slideshow');
-},  3000);
-</script>
-<!-- Lightbox Script -->
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/fancybox/1.3.4/jquery.fancybox-1.3.4.pack.min.js"></script>
+
+
+
 <script type="text/javascript">
-    $(function($){
-        var addToAll = false;
-        var gallery = true;
-        var titlePosition = 'inside';
-        $(addToAll ? 'img' : 'img.fancybox').each(function(){
-            var $this = $(this);
-            var title = $this.attr('title');
-            var src = $this.attr('data-big') || $this.attr('src');
-            var a = $('<a href="#" class="fancybox"></a>').attr('href', src).attr('title', title);
-            $this.wrap(a);
-        });
-        if (gallery)
-            $('a.fancybox').attr('rel', 'fancyboxgallery');
-        $('a.fancybox').fancybox({
-            titlePosition: titlePosition
-        });
-    });
-    $.noConflict();
+	$(window).load(function(){
+		
+		$('.knowmore').bind('click',function(event){
+			var $anchor = $(this);
+			
+			$('html, body').stop().animate({
+				scrollTop: $($anchor.attr('href')).offset().top - 0 
+			}, 1500,'easeInOutExpo');
+			/*
+			if you don't want to use the easing effects:
+			$('html, body').stop().animate({
+				scrollTop: $($anchor.attr('href')).offset().top
+			}, 1000);
+			*/
+			event.preventDefault();
+		});
+	})
+</script>
+
+<script type="text/javascript">
+	$(window).load(function(){
+		
+		$('.footer-logo-1').bind('click',function(event){
+			var $anchor = $(this);
+			
+			$('html, body').stop().animate({
+				scrollTop: $($anchor.attr('href')).offset().top - 0 
+			}, 1500,'easeInOutExpo');
+			/*
+			if you don't want to use the easing effects:
+			$('html, body').stop().animate({
+				scrollTop: $($anchor.attr('href')).offset().top
+			}, 1000);
+			*/
+			event.preventDefault();
+		});
+	})
 </script>
 </body>
 </html>
