@@ -193,30 +193,11 @@ color: #fff;
 	padding:0;
 	list-style:none;
 }
-.main-nav2{
-margin: 0px;
-}
 
 
 .main-nav li{
 	display:inline;
 	margin:0 1px;
-}
-.main-nav2 li{
-	display:inline;
-	margin:0 1px;
-}
-.main-nav2 li a{
-	display:inline-block;
-	color:#222222;
-	text-transform:uppercase;
-	font-family: 'Montserrat', sans-serif;
-	text-decoration: none;
-	line-height:20px;
-	margin:17px 32px;
-	transition:all 0.3s ease-in-out;
-	-moz-transition:all 0.3s ease-in-out;
-	-webkit-transition:all 0.3s ease-in-out;
 }
 .main-nav li a{
 	display:inline-block;
