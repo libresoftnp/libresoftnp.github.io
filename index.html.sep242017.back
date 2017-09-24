@@ -124,20 +124,7 @@
         	<div class="col-lg-7 col-sm-8 featured-work">
             <!--	<h2>featured work</h2>
             	<P class="padding-b">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit.</P> -->
-            	
-
-		    <div class="featured-box">
-                	<div class="featured-box-col1 wow fadeInRight delay-06s">
-                    	<i class="fa-car"></i>
-                    </div>	
-                	<div class="featured-box-col2 wow fadeInRight delay-06s">
-                        <h3>GPS Tracking </h3>
-                        <p>Easy and affordable vehicle tracking system. Get a live tracking of motorbike, car, buses, vans etc. Track from our web application or from your mobile. Give us a call for a live demo. </p>
-                    </div>    
-                </div>
-
-
-		<div class="featured-box">
+            	<div class="featured-box">
                 	<div class="featured-box-col1 wow fadeInRight delay-02s">
                     	<i class="fa-desktop"></i>
                     </div>	
@@ -164,8 +151,6 @@
                         <p>We can help you with anything related to Linux, Networking and System Administration upon request.</p>
                     </div>    
                 </div>
-
-
                 <a class="Learn-More" href="#">Learn More</a>
             </div>
         </div>
@@ -335,7 +320,7 @@ In the past, Basanta has led OLE Nepal as a chief technical officer and Program 
         	<div class="col-lg-6 col-sm-7 wow fadeInLeft">
             	<div class="contact-info-box address clearfix">
                 	<h3><i class=" icon-map-marker"></i>Address:</h3>
-                	<span>Dillibazar Height, Near Universal Language Center<br>Kathmandu, Nepal</span>
+                	<span>Maharajgunj<br>Kathmandu, Nepal</span>
                 </div>
                 <div class="contact-info-box phone clearfix">
                 	<h3><i class="fa-phone"></i>Phone:</h3>
